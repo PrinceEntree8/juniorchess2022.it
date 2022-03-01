@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "install",
+			"path": "build/",
+			"problemMatcher": [],
+			"label": "npm: install - build",
+			"detail": "install dependencies from package"
+		},
+		{
+			"type": "npm",
+			"script": "gulp-init",
+			"path": "build/",
+			"problemMatcher": ["$gulp-tsc"],
+			"label": "npm: gulp-init - build",
+			"detail": "gulp"
+		},
+		{
+			"type": "npm",
+			"script": "gulp-webp",
+			"path": "build/",
+			"problemMatcher": ["$gulp-tsc"],
+			"label": "npm: gulp-webp - build",
+			"detail": "gulp convert:webp"
+		}
+	]
+}
