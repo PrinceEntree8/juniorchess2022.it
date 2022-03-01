@@ -1,7 +1,12 @@
 /* -------color customization-------- */   
 
-$primary: $cyan;
-$secondary: $cyan-600;
+$primary: #F70000;
+$secondary: darken($primary, 50);
+
+$theme-colors: (
+  primary: $red,
+  secondary: $red-600,
+);
 
 /* -------end color customization-------- */ 
 

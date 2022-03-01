@@ -2,7 +2,8 @@
     width: auto!important;
     height: auto!important;
 }
-section#sponsor .img-thumbnail {
+section#sponsors .img-thumbnail {
+    @extend .img-thumbnail;
     max-height: 200px;
     width:auto;
 }

@@ -72,7 +72,7 @@ gulp.task('minify:css', function() {
 
 // Convert pictures
 gulp.task('convert:webp', function() {
-    return gulp.src([paths.src.base + 'img/**', paths.src.base + 'img/*'])
+    return gulp.src([paths.src.base + 'images/**', paths.src.base + 'images/*'])
         .pipe(webp())
         .pipe(gulp.dest(paths.src.images))
         .pipe(rename(function(path) {
